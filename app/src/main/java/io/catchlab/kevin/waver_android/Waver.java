@@ -4,7 +4,7 @@ import android.media.MediaRecorder;
 import android.media.MediaRecorder.AudioEncoder;
 import android.media.MediaRecorder.OutputFormat;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -13,7 +13,7 @@ import android.widget.LinearLayout;
 import java.io.IOException;
 
 
-public class Waver extends ActionBarActivity {
+public class Waver extends AppCompatActivity {
     private static final String LOG_TAG = "AudioRecordTest";
 
     private MediaRecorder mRecorder = null;
